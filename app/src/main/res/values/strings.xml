@@ -1,10 +1,38 @@
 <resources>
-    <string name="app_name">Weather</string>
-    <string name="city_name">Saint-Petersburg</string>
-    <string name="icon_weather_condition_description">Icon of weather condition</string>
-    <string name="humidity">Humidity</string>
-    <string name="windspeed">Wind</string>
-    <string name="pressure">Pressure</string>
-    <string name="error_loading"> An error occurred while loading data. Please check your internet connection or try again later.</string>
-    <string name="retry_loading">Retry</string>
+    <string name="ok">OK</string>
+    <string name="app_name">Tickets</string>
+    <string name="hotels">Hotels</string>
+    <string name="nearer">Nearer</string>
+    <string name="tickets">Air Tickets</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="profile">Profile</string>
+    <string name="main_screen_header">Search for\n cheap tickets</string>
+    <string name="from_hint">From - Moscow</string>
+    <string name="to_hint">To - Turkey</string>
+    <string name="offers_header">Fly away for music</string>
+    <string name="offer_image_description">Offer image</string>
+    <string name="search_icon">Search icon</string>
+    <string name="close_dialog">Close search dialog</string>
+    <string name="complex_route">Complex\n route</string>
+    <string name="anywhere">Anywhere</string>
+    <string name="holidays">Holidays</string>
+    <string name="hot_tickets">Hot\n tickets</string>
+    <string name="popular_route">Popular destination</string>
+    <string name="sochi">Sochi</string>
+    <string name="phuket">Phuket</string>
+    <string name="istanbul">Istanbul</string>
+    <string name="back">Back</string>
+    <string name="backward">backward</string>
+    <string name="filters">filters</string>
+    <string name="economy">1,economy</string>
+    <string name="direct_flights">Direct flights</string>
+    <string name="air_company_icon">Air company icon</string>
+    <string name="show_all_tickets">Show all tickets</string>
+    <string name="subscribe_for_the_price">Subscribe for the price</string>
+    <string name="filter">Filter</string>
+    <string name="price_graph">Price graph</string>
+    <string name="line">-</string>
+    <string name="stroke">Stroke</string>
+
+
 </resources>

@@ -4,12 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main"
     app:startDestination="@id/mainFragment">
+
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.myapp.weather.activity.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main">
+        android:name="com.myapp.tickets.activity.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment">
+
+        <action
+            android:id="@+id/action_mainFragment_to_complexRouteFragment"
+            app:destination="@id/complexRouteFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainFragment_to_holidaysFragment"
+            app:destination="@id/holidaysFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainFragment_to_hotTicketsFragment"
+            app:destination="@id/hotTicketsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
 
     </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.myapp.tickets.activity.SearchFragment"
+        android:label="search_fragment"
+        tools:layout="@layout/search_fragment">
+        <action
+            android:id="@+id/action_searchFragment_to_ticketsFragment"
+            app:destination="@id/ticketsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/ticketsFragment"
+        android:name="com.myapp.tickets.activity.TicketsFragment"
+        android:label="tickets_fragment"
+        tools:layout="@layout/tickets_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/holidaysFragment"
+        android:name="com.myapp.tickets.activity.HolidaysFragment"
+        android:label="holidays_fragment"
+        tools:layout="@layout/holidays_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/complexRouteFragment"
+        android:name="com.myapp.tickets.activity.ComplexRouteFragment"
+        android:label="complex_route_fragment"
+        tools:layout="@layout/complex_route_fragment">
+    </fragment>
+    <fragment
+        android:id="@+id/hotTicketsFragment"
+        android:name="com.myapp.tickets.activity.HotTicketsFragment"
+        android:label="hot_tickets_fragment"
+        tools:layout="@layout/hot_tickers_fragment">
+    </fragment>
+
 
 </navigation>

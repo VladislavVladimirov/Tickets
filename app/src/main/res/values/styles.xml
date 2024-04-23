@@ -1,10 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <style name="Theme.Weather.BackgroundImageStyle">
-        <item name="android:windowBackground">@drawable/background_main</item>
-    </style>
+
     <style name="ProgressBarTheme" parent="Theme.AppCompat.Light">
         <item name="colorAccent">@android:color/white</item>
     </style>
+
+    <style name="BottomNavInactiveText">
+        <item name="fontFamily">@font/sf_pro_display</item>
+    </style>
+
+    <style name="BottomNavActiveText">
+        <item name="fontFamily">@font/sf_pro_display</item>
+    </style>
+
+    <style name="Theme.App.EditTextCity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle</item>
+        <item name="colorControlActivated">@color/black</item>
+    </style>
+
+    <style name="CustomChip1Style" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/grey_3</item>
+        <item name="chipIcon">@drawable/ic_plus</item>
+        <item name="chipIconVisible">true</item>
+        <item name="chipIconSize">16dp</item>
+        <item name="chipEndPadding">4dp</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="iconStartPadding">4dp</item>
+
+
+    </style>
+
+    <style name="CustomChip2Style" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/grey_3</item>
+        <item name="chipEndPadding">4dp</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="chipStartPadding">4dp</item>
+    </style>
+
+    <style name="CustomChip3Style" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/grey_3</item>
+        <item name="chipIcon">@drawable/ic_passenger</item>
+        <item name="chipIconVisible">true</item>
+        <item name="chipIconSize">10dp</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="chipEndPadding">4dp</item>
+        <item name="iconStartPadding">4dp</item>
+    </style>
+
+    <style name="CustomChip4Style" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/grey_3</item>
+        <item name="chipIcon">@drawable/ic_settings</item>
+        <item name="chipIconVisible">true</item>
+        <item name="chipIconSize">16dp</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="chipEndPadding">4dp</item>
+        <item name="iconStartPadding">4dp</item>
+    </style>
+
+    <style name="CustomTextAppearance" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/sf_pro_display_italic</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="SelectionSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#FF0000</item>
+        <item name="colorSwitchThumbNormal">#000000</item>
+        <item name="android:colorForeground">#124964</item>
+    </style>
+
 </resources>

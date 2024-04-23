@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Погода</string>
-    <string name="city_name">Санкт-Петербург</string>
-    <string name="icon_weather_condition_description">Иконка состояния погоды</string>
-    <string name="humidity">Влажность</string>
-    <string name="windspeed">Ветер</string>
-    <string name="pressure">Давление</string>
-    <string name="error_loading">Произошла ошибка при загрузке данных. Пожалуйста, проверьте соединение с интернетом или повторите попытку позже.</string>
-    <string name="retry_loading">Повторить</string>
+    <string name="app_name">Билеты</string>
+    <string name="ok">Ок</string>
+    <string name="tickets">Авиабилеты</string>
+    <string name="hotels">Отели</string>
+    <string name="nearer">Короче</string>
+    <string name="subscriptions">Подписки</string>
+    <string name="profile">Профиль</string>
+    <string name="main_screen_header">Поиск дешевых\n авиабилетов</string>
+    <string name="from_hint">Откуда - Москва</string>
+    <string name="to_hint">Куда - Турция</string>
+    <string name="offers_header">Музыкально отлететь</string>
+    <string name="offer_image_description">Картинка предложения</string>
+    <string name="search_icon">Иконка поиска</string>
+    <string name="close_dialog">Закрыть всплывающее окно поиска</string>
+    <string name="complex_route">Сложный\n маршрут</string>
+    <string name="anywhere">Куда угодно</string>
+    <string name="holidays">Выходные</string>
+    <string name="hot_tickets">Горячие\n билеты</string>
+    <string name="popular_route">Популярное направление</string>
+    <string name="sochi">Сочи</string>
+    <string name="phuket">Пхукет</string>
+    <string name="istanbul">Стамбул</string>
+    <string name="back">Назад</string>
+    <string name="backward">обратно</string>
+    <string name="filters">фильтры</string>
+    <string name="economy">1,эконом</string>
+    <string name="direct_flights">Прямые рейсы</string>
+    <string name="air_company_icon">Иконка авиакомпании</string>
+    <string name="show_all_tickets">Посмотреть все билеты</string>
+    <string name="subscribe_for_the_price">Подписка на цену</string>
+    <string name="filter">Фильтр</string>
+    <string name="price_graph">График цен</string>
+    <string name="line">-</string>
+    <string name="stroke">Стрелка</string>
+
 </resources>
