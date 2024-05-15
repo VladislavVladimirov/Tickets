@@ -29,7 +29,6 @@
 - Okhttp
 - Hilt (Dagger)
 - Clean Architecture
-- Многомодульность
 - Coroutines
 
 
