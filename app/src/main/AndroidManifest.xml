@@ -17,7 +17,7 @@
         android:usesCleartextTraffic="${usesCleartextTraffic}"
         tools:targetApi="34">
         <activity
-            android:name="com.myapp.tickets.activity.AppActivity"
+            android:name="com.myapp.tickets.ui.activity.AppActivity"
             android:exported="true"
             android:configChanges="orientation"
             android:screenOrientation="portrait"

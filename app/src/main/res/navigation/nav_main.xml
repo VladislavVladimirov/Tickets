@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.myapp.tickets.activity.MainFragment"
+        android:name="com.myapp.tickets.ui.activity.MainFragment"
         android:label="main_fragment"
         tools:layout="@layout/main_fragment">
 
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.myapp.tickets.activity.SearchFragment"
+        android:name="com.myapp.tickets.ui.activity.SearchFragment"
         android:label="search_fragment"
         tools:layout="@layout/search_fragment">
         <action
@@ -56,25 +56,25 @@
     </fragment>
     <fragment
         android:id="@+id/ticketsFragment"
-        android:name="com.myapp.tickets.activity.TicketsFragment"
+        android:name="com.myapp.tickets.ui.activity.TicketsFragment"
         android:label="tickets_fragment"
         tools:layout="@layout/tickets_fragment">
     </fragment>
     <fragment
         android:id="@+id/holidaysFragment"
-        android:name="com.myapp.tickets.activity.HolidaysFragment"
+        android:name="com.myapp.tickets.ui.activity.HolidaysFragment"
         android:label="holidays_fragment"
         tools:layout="@layout/holidays_fragment">
     </fragment>
     <fragment
         android:id="@+id/complexRouteFragment"
-        android:name="com.myapp.tickets.activity.ComplexRouteFragment"
+        android:name="com.myapp.tickets.ui.activity.ComplexRouteFragment"
         android:label="complex_route_fragment"
         tools:layout="@layout/complex_route_fragment">
     </fragment>
     <fragment
         android:id="@+id/hotTicketsFragment"
-        android:name="com.myapp.tickets.activity.HotTicketsFragment"
+        android:name="com.myapp.tickets.ui.activity.HotTicketsFragment"
         android:label="hot_tickets_fragment"
         tools:layout="@layout/hot_tickers_fragment">
     </fragment>
