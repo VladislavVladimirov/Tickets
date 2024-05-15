@@ -21,7 +21,7 @@ import com.myapp.tickets.adapter.offer.OfferAdapter
 import com.myapp.tickets.adapter.offer.OfferItemDecoration
 import com.myapp.tickets.databinding.MainFragmentBinding
 import com.myapp.tickets.databinding.SearchDialogFragmentBinding
-import com.myapp.tickets.viewmodel.ViewModel
+import com.myapp.tickets.viewmodel.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
@@ -30,7 +30,7 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 @AndroidEntryPoint
 class MainFragment : Fragment() {
     private lateinit var binding: MainFragmentBinding
-    private val viewModel: ViewModel by activityViewModels()
+    private val viewModel: MainViewModel by activityViewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

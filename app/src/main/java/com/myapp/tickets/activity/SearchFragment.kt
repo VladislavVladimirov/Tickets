@@ -14,7 +14,7 @@ import com.myapp.tickets.databinding.SearchFragmentBinding
 import com.myapp.tickets.dto.TicketOffer
 import com.myapp.tickets.utils.AndroidUtils
 import com.myapp.tickets.utils.StringArg
-import com.myapp.tickets.viewmodel.ViewModel
+import com.myapp.tickets.viewmodel.SearchViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import java.text.SimpleDateFormat
@@ -30,7 +30,7 @@ class SearchFragment : Fragment() {
 
 
     private lateinit var binding: SearchFragmentBinding
-    private val viewModel: ViewModel by activityViewModels()
+    private val viewModel: SearchViewModel by activityViewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {

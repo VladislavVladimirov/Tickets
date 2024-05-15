@@ -10,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.myapp.tickets.adapter.tickets.TicketAdapter
 import com.myapp.tickets.databinding.TicketsFragmentBinding
 import com.myapp.tickets.utils.StringArg
-import com.myapp.tickets.viewmodel.ViewModel
+import com.myapp.tickets.viewmodel.TicketsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
@@ -22,7 +22,7 @@ class TicketsFragment : Fragment() {
         var Bundle.secondRow: String? by StringArg
     }
     private lateinit var binding: TicketsFragmentBinding
-    private val viewModel: ViewModel by activityViewModels()
+    private val viewModel: TicketsViewModel by activityViewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
